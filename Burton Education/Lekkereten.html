@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel= "stylesheet" type="text/css" href="Formulier.css">
+    <title>Formulier</title>
+</head>
+<body>
+<form action="" method="post">
+    <h1>Voorbeeldformulier</h1>
+
+    <label for="voornaam">Voornaam</label>
+    <input class="textinput" type="text" name="voornaam" id="voornaam">
+
+    <label for="eten">Lekker eten:</label>
+    <div class="eten">
+        <input type="checkbox">
+        <label>Sperziebonen</label>
+    </div>
+
+    <label for="tussenvoegsel">Tussenvoegsel</label>
+    <input class="textinput" type="text" name="tussenvoegsel" id="tussenvoegsel">
+
+   <div></div>
+    <div class="eten">
+        <input type="checkbox">
+        <label>Aardappel</label>
+    </div>
+
+    <label for="achternaam">Achternaam</label>
+    <input class="textinput" type="text" name="achternaam" id="achternaam">
+
+    <div></div>
+    <div class="eten">
+        <input type="checkbox">
+        <label>Hamburger</label>
+    </div>
+
+    <label>Geslacht</label>
+    <div id="geslacht">
+    <input id="radio" type="radio" name="geslacht" value="m">
+    <label>Man</label>
+    <input type="radio" name="geslacht" value="v">
+    <label>Vrouw</label>
+    </div>
+    <div></div>
+    <div></div>
+
+    <label for="oogkleur">Kleur ogen</label>
+    <div class="oogkleur" id="oogkleur">
+    <select>
+        <option value="leeg"></option>
+        <option value="Groen">Groen</option>
+        <option value="Blauw">Blauw</option>
+        <option value="Bruin">Bruin</option>
+        <option value="Grijs">Grijs</option>
+        <option value="Overig">Overig</option>
+    </select>
+    </div>
+
+    <label for="datum">Geboortedatum</label>
+    <div class="datum" id="datum">
+    <input id="date" type="date">
+    </div>
+    <div></div>
+    <div></div>
+
+    <label for="omschrijving">Omschrijving</label>
+    <div class="omschrijving" id="omschrijving">
+        <textarea></textarea>
+    </div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <div class="annuleer">
+    <button class="annuleer" type="reset">Annuleer</button>
+    </div>
+
+    <div class="submit">
+        <button class="submit" type="submit">OK</button>
+    </div>
+</form>
+</body>
+</html>

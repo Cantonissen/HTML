@@ -1,0 +1,69 @@
+* {
+    /*border: dotted 1px grey;*/
+    margin: 10px;
+    align-self: center;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: "Arial", "sans-serif";
+}
+form {
+    display: grid;
+    grid-template-columns: 20% 30% 10% 40%;
+    grid-template-rows: 150px auto;
+}
+
+h1{
+    grid-column: 1/5;
+}
+
+.eten{
+    display: flex;
+    grid-column: 4/5;
+}
+
+.oogkleur{
+    display: flex;
+    width: 200px;
+    grid-column: 2/5;
+    border-style: solid;
+    border: 1px cornflowerblue;
+}
+
+.datum{
+    width: 100px;
+}
+
+text{
+    width: 200px;
+    height: 200px;
+    border: solid 1px cornflowerblue;
+}
+
+.annuleer{
+    width: 100px;
+}
+
+#radio, select, #date, #input {
+    margin-left: 0;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    border: 1px cornflowerblue;
+    border-style: solid;
+    resize: none;
+    margin-left: 0px;
+}
+#button{
+    width: 100px;
+    text-overline: Annuleer;
+}
+
+.submit{
+    width: 100px;
+}
+

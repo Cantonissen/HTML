@@ -1,0 +1,35 @@
+body {
+    font-family: "Arial", "sans-serif"
+}
+
+nav {
+    background-color:black;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-right: 2px solid white;
+    padding-right: 5px;
+}
+div.wrapper {
+    width: 1200px;
+    margin: auto;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 49%;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+article  {
+float:left;
+    width: 49%;
+    margin-top: 30px;
+    margin-right: 2%;
+}
