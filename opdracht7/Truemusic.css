@@ -28,7 +28,7 @@ li {
         background-color: gray;
         text-align: center;
     }
-    li {
+    li, iframe {
         display: inline-block;
         border: none;
     }
